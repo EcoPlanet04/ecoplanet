@@ -1,0 +1,18 @@
+{
+  "name": "ecoplanet",
+  "version": "1.0.0",
+  "description": "Criação do código para estruturação do projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gh repo clone EcoPlanet04/EcoPlanet"
+  },
+  "author": "Equipe: Alefe, Eduardo, Igor e Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
