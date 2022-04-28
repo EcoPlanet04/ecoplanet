@@ -1,8 +1,13 @@
-const express = require("express");
-const app = express();
-const port = 8081
+const express = require("express"); // chamada do express
+const app = express(); // ativação do express
+const port = 8081 // porta habilitada
 
-app.use(express.json());
+app.use(express.json()); // express funcional em conjunto com .json
+
+app.get('/', (req, res) => {
+    let indexPath = path.join(__dirname, "./estrutura/index.html");
+    res.sendFile(indexPath);
+  }) // 
 
     const nome = req.body.exemplo2;   
     const idade = req.body.exemplo1;
