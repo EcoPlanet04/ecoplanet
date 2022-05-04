@@ -1,0 +1,23 @@
+header {
+
+    background: #5151cc;
+
+}
+
+header nav {
+
+    background: #5151cc;
+
+}
+
+footer {
+	text-align: center;
+	background: #392620;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
