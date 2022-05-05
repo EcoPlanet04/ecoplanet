@@ -3,7 +3,7 @@
 header {
 
     background: #5151cc;
-	position: absolute;
+	position: fixed;
 
 
 }
@@ -13,6 +13,14 @@ header nav {
     background: #5151cc;
 
 }
+
+header #pag_Inicial:hover {
+
+	color: rgb(41, 229, 38);
+}
+
+/* Fim Cabeçalho */
+
 
 /* body */
 
@@ -27,11 +35,16 @@ header nav {
 	margin-top: 60px;
 
 }
+
+/* Fim body */
+
 /*Main*/
 
+/* Fim Main*/
 
 /* body */
 
+/* Fim body */
 
 /*Rodapé*/
 footer {
@@ -46,3 +59,5 @@ footer {
 	margin: 20px 0 0;
 }
 
+
+/* Fim Rodapé*/
