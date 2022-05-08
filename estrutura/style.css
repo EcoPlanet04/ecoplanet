@@ -39,7 +39,11 @@ header #pag_Inicial:hover {
 /* Fim body */
 
 /*Main*/
-
+#carouselExampleDark {
+	
+	max-width: 900px;
+	margin: 100px auto;
+}
 /* Fim Main*/
 
 /* body */
