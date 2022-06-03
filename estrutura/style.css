@@ -28,18 +28,6 @@ header #pag_Inicial:hover {
 
 /* body */
 
-.selecao {
-	max-width: 960px;
-	margin: 0 auto;
-	
-}
-
-.card {
-	width: 220px;
-	margin-top: 60px;
-
-}
-
 /* Fim body */
 
 /*Main*/
@@ -52,13 +40,32 @@ header #pag_Inicial:hover {
 
 /* body */
 
+.selecao {
+	max-width: 1260px;
+	width: 100%;
+	display: block;
+	position: static;
+	padding: 5%;
+	margin: 0 auto;
+}
+
+.card {
+	max-width: 210px;
+	width: 215px;
+	display: block;
+	padding: 10px;
+	
+}
+
 /* Fim body */
 
 /*Rodapé*/
 footer {
 	text-align: center;
 	background: #392620;
-	padding: 40px 0;
+	display: block;
+	position: ;
+	
 }
 
 .copyright {
