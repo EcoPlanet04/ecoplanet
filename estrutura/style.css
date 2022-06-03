@@ -2,9 +2,9 @@
 
 header {
 
-    background: #5151cc;
-	position: fixed;
-
+;
+	position: absolute;
+	display: block;
 
 }
 
@@ -17,6 +17,11 @@ header nav {
 header #pag_Inicial:hover {
 
 	color: rgb(41, 229, 38);
+}
+
+.d-flex {
+	margin-left: auto;
+	padding: 10px;
 }
 
 /* Fim Cabeçalho */
