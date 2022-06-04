@@ -1,3 +1,4 @@
+
 /* Cabeçalho */
 
 header {
@@ -64,11 +65,19 @@ footer {
 	text-align: center;
 	background: #392620;
 	display: block;
-	position: ;
+	max-height: 20%;
+	top: 0;
+	padding: 20px;
+	
 	
 }
 
-.copyright {
+footer .rodape img {
+	max-width: 960px;
+	width:10%;
+}
+
+footer .rodape .copyright {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
