@@ -15,7 +15,7 @@ header nav {
 }
 
 header.navbar navbar-light bg-light fixed-top {
-	padding-block-end:0%;
+	padding-block-end:;
 	position: absolute;
 	top: 0px
 	
