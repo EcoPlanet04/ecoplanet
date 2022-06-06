@@ -4,7 +4,7 @@
 header {
 
 	position: absolute;
-	display: block;
+	max-width: 570px;
 
 }
 
@@ -12,6 +12,13 @@ header nav {
 
     background: #5151cc;
 
+}
+
+header.navbar navbar-light bg-light fixed-top {
+	padding-block-end:0%;
+	position: absolute;
+	top: 0px
+	
 }
 
 header #pag_Inicial:hover {
@@ -29,6 +36,7 @@ header #pag_Inicial:hover {
 
 /* body */
 
+
 /* Fim body */
 
 /*Main*/
@@ -36,6 +44,7 @@ header #pag_Inicial:hover {
 	
 	max-width: 900px;
 	margin: 100px auto;
+	display: block;
 }
 /* Fim Main*/
 
@@ -75,6 +84,7 @@ footer {
 footer .rodape img {
 	max-width: 960px;
 	width:10%;
+	
 }
 
 footer .rodape .copyright {
