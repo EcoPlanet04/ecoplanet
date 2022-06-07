@@ -47,6 +47,59 @@ header #pag_Inicial:hover {
 }
 /* Fim Main*/
 
+/*coleta_seletiva_E, Main*/
+.texto_geral_CSE {
+
+	margin: 150px 20px;
+}
+
+.titulo_CSE {
+	text-align: center;
+	margin: 20px auto;
+	font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+.texto_CSE {
+	font-size: clamp(1em, 1em + 1vw, 1.25em);	
+}
+
+.texto_geral_CSR {
+
+	margin: 150px 20px;
+}
+
+.titulo_CSR {
+	text-align: center;
+	margin: 20px auto;
+	font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+.texto_CSR {
+	font-size: clamp(1em, 1em + 1vw, 1.25em);	
+}
+
+.texto_geral_CSC {
+
+	margin: 150px 20px;
+}
+
+.titulo_CSC {
+	text-align: center;
+	margin: 20px auto;
+	font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+.texto_CSC {
+	font-size: clamp(1em, 1em + 1vw, 1.25em);	
+}
+
+
+
+
+
+
+/*Fim coleta_seletiva_E, Main*/
+
 /* body */
 
 .selecao {
