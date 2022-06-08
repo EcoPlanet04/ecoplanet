@@ -3,8 +3,9 @@
 
 header {
 
-	position: absolute;
+	position: static;
 	max-width: 570px;
+	display: block;
 
 }
 
@@ -20,7 +21,7 @@ header.navbar navbar-light bg-light fixed-top {
 	
 }
 
-header #pag_Inicial:hover {
+header #Interacao:hover {
 
 	color: rgb(41, 229, 38);
 }
@@ -40,10 +41,11 @@ header #pag_Inicial:hover {
 /* Fim body */
 
 /*Main*/
+
 #carouselExampleDark {
 	
 	max-width: 900px;
-	margin: 100px auto;
+	margin: 85px auto;
 	display: block;
 }
 /* Fim Main*/
@@ -112,7 +114,6 @@ header #pag_Inicial:hover {
 	width: 100%;
 	display: block;
 	position: static;
-	padding: 10px;
 	margin: 0 auto;
 }
 .selecao2 {
@@ -139,9 +140,10 @@ footer {
 	text-align: center;
 	background: #392620;
 	display: block;
+	max-width: 100%;
 	max-height: 20%;
 	top: 0;
-	padding: 20px;
+	padding: ;
 	
 	
 }
