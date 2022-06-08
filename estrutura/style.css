@@ -107,7 +107,15 @@ header #pag_Inicial:hover {
 	width: 100%;
 	display: block;
 	position: static;
-	padding: 5%;
+	padding: 10px;
+	margin: 0 auto;
+}
+.selecao {
+	max-width: 1260px;
+	width: 100%;
+	display: block;
+	position: static;
+	padding: 10px;
 	margin: 0 auto;
 }
 
