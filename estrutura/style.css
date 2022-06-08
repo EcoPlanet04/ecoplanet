@@ -4,7 +4,7 @@
 header {
 
 	position: absolute;
-	display: block;
+	max-width: 570px;
 
 }
 
@@ -12,6 +12,12 @@ header nav {
 
     background: #5151cc;
 
+}
+
+header.navbar navbar-light bg-light fixed-top {
+	padding-block-end: 5px;
+	top: 0px;
+	
 }
 
 header #pag_Inicial:hover {
@@ -29,6 +35,7 @@ header #pag_Inicial:hover {
 
 /* body */
 
+
 /* Fim body */
 
 /*Main*/
@@ -36,8 +43,62 @@ header #pag_Inicial:hover {
 	
 	max-width: 900px;
 	margin: 100px auto;
+	display: block;
 }
 /* Fim Main*/
+
+/*coleta_seletiva_E, Main*/
+.texto_geral_CSE {
+
+	margin: 150px 20px;
+}
+
+.titulo_CSE {
+	text-align: center;
+	margin: 20px auto;
+	font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+.texto_CSE {
+	font-size: clamp(1em, 1em + 1vw, 1.25em);	
+}
+
+.texto_geral_CSR {
+
+	margin: 150px 20px;
+}
+
+.titulo_CSR {
+	text-align: center;
+	margin: 20px auto;
+	font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+.texto_CSR {
+	font-size: clamp(1em, 1em + 1vw, 1.25em);	
+}
+
+.texto_geral_CSC {
+
+	margin: 150px 20px;
+}
+
+.titulo_CSC {
+	text-align: center;
+	margin: 20px auto;
+	font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+.texto_CSC {
+	font-size: clamp(1em, 1em + 1vw, 1.25em);	
+}
+
+
+
+
+
+
+/*Fim coleta_seletiva_E, Main*/
 
 /* body */
 
@@ -75,6 +136,7 @@ footer {
 footer .rodape img {
 	max-width: 960px;
 	width:10%;
+	
 }
 
 footer .rodape .copyright {
