@@ -136,6 +136,12 @@ header #Interacao:hover {
 /* Fim body */
 
 /*Rodapé*/
+
+#fim {
+	position: fixed;
+	top:0%;
+}
+
 footer {
 	text-align: center;
 	background: #392620;
@@ -143,7 +149,7 @@ footer {
 	max-width: 100%;
 	max-height: 20%;
 	top: 0;
-	padding: ;
+	padding: 20px;
 	
 	
 }
