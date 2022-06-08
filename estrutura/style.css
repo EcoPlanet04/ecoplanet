@@ -30,6 +30,7 @@ header #pag_Inicial:hover {
 	padding: 10px;
 }
 
+
 /* Fim Cabeçalho */
 
 
@@ -102,6 +103,10 @@ header #pag_Inicial:hover {
 
 /* body */
 
+.selecoes {
+
+	padding: 5px;
+}
 .selecao {
 	max-width: 1260px;
 	width: 100%;
@@ -110,7 +115,7 @@ header #pag_Inicial:hover {
 	padding: 10px;
 	margin: 0 auto;
 }
-.selecao {
+.selecao2 {
 	max-width: 1260px;
 	width: 100%;
 	display: block;
