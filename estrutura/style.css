@@ -5,7 +5,6 @@ header {
 
 	position: static;
 	max-width: 570px;
-	display: block;
 
 }
 
@@ -43,6 +42,8 @@ header #Interacao:hover {
 /* Fim body */
 
 /*Main*/
+
+
 
 #carouselExampleDark {
 	
@@ -139,10 +140,7 @@ header #Interacao:hover {
 
 /*Rodapé*/
 
-#fim {
-	position: fixed;
-	top:0%;
-}
+
 
 footer {
 	text-align: center;
