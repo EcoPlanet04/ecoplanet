@@ -52,9 +52,16 @@ header #Interacao:hover {
 
 #carouselExampleDark {
 	
-	max-width: 900px;
+	max-width: 100%;
 	margin: 85px auto;
 	display: block;
+}
+
+.carousel-item img {
+    width: 100vh;
+    height: 60vh;
+    object-fit: contain;
+    
 }
 /* Fim Main*/
 
