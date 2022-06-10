@@ -45,6 +45,14 @@ header #pag_Inicial:hover {
 	max-width: 900px;
 	margin: 100px auto;
 	display: block;
+	
+}
+
+.carousel-item img {
+    width: 100vh;
+    height: 60vh;
+    object-fit: contain;
+    
 }
 /* Fim Main*/
 
