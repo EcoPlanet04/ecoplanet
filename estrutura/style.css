@@ -136,19 +136,24 @@ header #Interacao:hover {
 .selecoes {
 
 	padding: 5px;
+	position: relative;
+	display:block;
+	margin: 0 auto;
+
+	
 }
 .selecao {
 	max-width: 1260px;
 	width: 100%;
 	display: block;
-	position: relative;
+	position: flex;
 	margin: 0 auto;
 }
 .selecao2 {
 	max-width: 1260px;
 	width: 100%;
 	display: block;
-	position: relative;
+	position: flex;
 	padding: 10px;
 	margin: 0 auto;
 }
@@ -159,6 +164,10 @@ header #Interacao:hover {
 	display: block;
 	padding: 10px;
 	
+}
+
+.card a {
+	text-decoration: none;
 }
 
 /* Fim body */
