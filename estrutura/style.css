@@ -111,7 +111,20 @@ header #Interacao:hover {
 	font-size: clamp(1em, 1em + 1vw, 1.25em);	
 }
 
+.texto_geral_R {
 
+	margin: 150px 20px;
+}
+
+.titulo_R {
+	text-align: center;
+	margin: 20px auto;
+	font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+.texto_R {
+	font-size: clamp(1em, 1em + 1vw, 1.25em);	
+}
 
 
 
