@@ -135,26 +135,16 @@ header #Interacao:hover {
 
 .selecoes {
 
-	padding: 5px;
 	position: relative;
 	display:block;
 	margin: 0 auto;
 
-	
 }
 .selecao {
 	max-width: 1260px;
 	width: 100%;
 	display: block;
 	position: flex;
-	margin: 0 auto;
-}
-.selecao2 {
-	max-width: 1260px;
-	width: 100%;
-	display: block;
-	position: flex;
-	padding: 10px;
 	margin: 0 auto;
 }
 
@@ -170,6 +160,22 @@ header #Interacao:hover {
 	text-decoration: none;
 }
 
+/*jogos*/
+
+/*.formatoseparacao{
+	word-wrap:break-word;
+	margin: 0 auto;
+	flex-direction: column;
+teste
+}*/
+
+
+.gm{
+	max-width:80%;
+	margin: 0 auto;
+}
+
+
 /* Fim body */
 
 /*Rodapé*/
@@ -182,7 +188,7 @@ footer {
 	display: block;
 	max-width: 100%;
 	max-height: 20%;
-	padding: 20px;
+	padding-top: 20px;
 	
 	
 }
