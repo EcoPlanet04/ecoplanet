@@ -71,7 +71,7 @@ header #Interacao:hover {
 
 /*conteudos*/
 
-.card_conteudo {
+.cardcont {
 	justify-content: center;
 	justify-items: center;
 	display: grid;
