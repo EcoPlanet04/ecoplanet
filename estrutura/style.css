@@ -81,6 +81,10 @@ header #Interacao:hover {
 	margin: 100px;
 }
 
+#imgcont {
+	object-fit: cover;
+}
+
 .card mb-3 {
 	width: 700px;
 }
@@ -167,13 +171,7 @@ header #Interacao:hover {
 	margin: 0 auto;
 }
 
-.card {
-	max-width: 210px;
-	width: 215px;
-	display: block;
-	padding: 10px;
-	
-}
+
 
 .card a {
 	text-decoration: none;
