@@ -2,6 +2,19 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+
+font-size: 100%;
+background-color: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
