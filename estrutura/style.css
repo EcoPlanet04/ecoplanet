@@ -78,13 +78,15 @@ header #Interacao:hover {
 /*conteudos*/
 
 .cardcont {
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	justify-items: center;
-	display: grid;
-	grid-gap: 30px;
-	padding: 30px;
-	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-	margin: 100px;
+	margin: 150px 5px;
+}
+
+.card {
+	flex: 1 1 150px;
+	margin: 5px;
 }
 
 #imgcont {
