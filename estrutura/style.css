@@ -87,6 +87,7 @@ header #Interacao:hover {
 .card {
 	flex: 1 1 150px;
 	margin: 5px;
+	padding: 5px;
 }
 
 #imgcont {
