@@ -52,12 +52,25 @@ header #Interacao:hover {
 
 	padding-top: 85px;
 	text-align: center;
+	color: white;
+}
+
+.accordion-header{
+
+	text-align: center;
+	
 }
 
 /* Fim body */
 
 /*Main*/
 
+.espacamento {
+
+	padding-top: 85px;
+
+	
+}
 
 
 #carouselExampleDark {
