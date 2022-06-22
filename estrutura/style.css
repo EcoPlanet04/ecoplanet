@@ -7,6 +7,7 @@ body{
 
 	font-size: 100%;
 	background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+	text-decoration: white;
 	
 	}
 /* Cabeçalho */
@@ -101,6 +102,7 @@ header #Interacao:hover {
 	flex: 1 1 150px;
 	margin:  5px;
 	padding: 5px;
+	box-shadow: 10px 10px 2px #000000;
 }
 
 #imgcont {
@@ -200,6 +202,22 @@ header #Interacao:hover {
 }
 
 /*jogos*/
+
+.container {
+	background-color: #000000;
+	margin: 100px auto;
+	padding: 20px;
+	box-shadow: 10px 10px 30px #000000;
+}
+
+.jogo {
+	padding: 40px
+}
+
+.textjogos {
+	font-size: 20px;
+	color: white;
+}
 
 /*.formatoseparacao{
 	word-wrap:break-word;
