@@ -105,6 +105,14 @@ header #Interacao:hover {
 	box-shadow: 10px 10px 2px #000000;
 }
 
+.card-title {
+	padding: 5px;
+}
+
+.card-text {
+	padding: 5px;
+}
+
 #imgcont {
 	object-fit: cover;
 }
