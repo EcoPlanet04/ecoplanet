@@ -89,19 +89,38 @@ header #Interacao:hover {
 	
 }
 
+.h1_index {
+	font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+	
+	color: #FFFFFF;	
+	width: 60%;
+	left:10%;
+	position: relative;
+
+	
+
+}
+
+.h1_index h1 {
+	text-align: center;
+}
 
 #carouselExampleDark {
 	
-	max-width: 80%;
-	margin: 85px auto;
+	max-width: 100%;
+	margin: 74px auto;
 	display: block;
 }
 
 .carousel-item img {
     width: 100vh;
     height: 60vh;
-    object-fit: contain;
+    object-fit: cover;
     
+}
+
+.carousel-indicators {
+	color: red;
 }
 /* Fim Main*/
 
@@ -119,6 +138,14 @@ header #Interacao:hover {
 	display: inline-block;
 	
 	margin: 150px 60px;
+}
+
+.cardcont_index {
+	display: flex;
+	flex-flow: column wrap;
+	display: inline-block;
+	
+	margin: 80px 60px;
 }
 
 .card {
