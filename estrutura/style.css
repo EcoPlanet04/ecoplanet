@@ -65,6 +65,9 @@ header #Interacao:hover {
 /* Fim body */
 
 /*Main*/
+main {
+
+}
 
 .espacamento {
 
@@ -122,7 +125,7 @@ header #Interacao:hover {
 }
 
 .texto_geral_CSE {
-
+	color: #FFFFFF;
 	margin: 150px 20px;
 }
 
@@ -137,7 +140,7 @@ header #Interacao:hover {
 }
 
 .texto_geral_CSR {
-
+	color: #FFFFFF	;
 	margin: 150px 20px;
 }
 
@@ -152,7 +155,7 @@ header #Interacao:hover {
 }
 
 .texto_geral_CSC {
-
+	color: #FFFFFF;
 	margin: 150px 20px;
 }
 
@@ -167,7 +170,7 @@ header #Interacao:hover {
 }
 
 .texto_geral_R {
-
+	color: #FFFFFF;
 	margin: 150px 20px;
 }
 
@@ -216,6 +219,8 @@ header #Interacao:hover {
 	margin: 100px auto;
 	padding: 20px;
 	box-shadow: 10px 10px 30px #000000;
+	border-radius: 50px;
+	border-style:ridge;
 }
 
 .jogo {
