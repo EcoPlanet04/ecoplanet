@@ -94,11 +94,18 @@ main {
 
 /*conteudos*/
 
+.posicaocards {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
 .cardcont {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 150px 5px;
+	flex-flow: column wrap;
+	display: inline-block;
+	
+	margin: 150px 60px;
 }
 
 .card {
