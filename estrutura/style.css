@@ -94,7 +94,7 @@ header #Interacao:hover {
 	
 	color: #FFFFFF;	
 	width: 60%;
-	left:10%;
+	margin: 0 auto;
 	position: relative;
 
 	
@@ -115,7 +115,7 @@ header #Interacao:hover {
 .carousel-item img {
     width: 100vh;
     height: 60vh;
-    object-fit: cover;
+    object-fit:unset;
     
 }
 
