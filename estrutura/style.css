@@ -54,12 +54,28 @@ header #Interacao:hover {
 	padding-top: 85px;
 	text-align: center;
 	color: white;
+	font-style: italic;
 }
 
 .accordion-header{
 
 	text-align: center;
 	
+}
+
+.accordion-button {
+	position: relative;
+    display:list-item;
+	align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+	text-align: center;
+	font-size: 2pc;
+}
+
+.placeholder {
+	background-color: limegreen;
 }
 
 /* Fim body */
